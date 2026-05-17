@@ -1,47 +1,129 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Quality Service You Can Trust",
+  "businessName": "Pho Lab Lake Forest",
+  "tagline": "Engineered broth, served seven days",
   "hero": {
-    "heading": "Welcome to Our Business",
-    "subheading": "Professional service in your area.",
-    "ctaText": "Contact Us",
-    "ctaLink": "#contact"
+    "heading": "Pho, broken down to its molecules.",
+    "subheading": "Twelve-hour beef bone broth. Fresh-cut Thai basil. Banh mi rolls baked daily. Lake Forest's neighborhood Vietnamese kitchen since 2019.",
+    "ctaText": "Order online",
+    "ctaLink": "https://custom.order.online/store/pho-lab-lake-forest-dr-39768220",
+    "image": "https://images.unsplash.com/photo-1582878826629-29b7ad1cdc43?w=1800&q=80&auto=format&fit=crop"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "A modern lab for Vietnamese comfort food.",
     "paragraphs": [
-      "We are a local business dedicated to providing quality service.",
-      "Our team has years of experience and we take pride in our work."
+      "At Pho Lab we treat broth like a research project. Twelve hours of low simmer. Knuckle bones, oxtail, and toasted star anise. We taste it every two hours and adjust the salt.",
+      "Everything that touches the table is made within 24 hours of arriving at our door. Banh mi rolls from a baker in Westminster. Bean sprouts and Thai basil from Encinitas. Limes by the case.",
+      "Open every day until 10pm. Order online, dine in, or grab a quart of broth to take home. Either way — same recipe, same care, every time."
     ]
   },
   "services": [
-    { "title": "Service One", "description": "Professional service with attention to detail.", "icon": "star" },
-    { "title": "Service Two", "description": "Quality work at competitive prices.", "icon": "award" },
-    { "title": "Service Three", "description": "Fast, reliable, and thorough.", "icon": "check" }
+    {
+      "title": "Pho Tai Nam",
+      "description": "The classic. Rare beef and well-done flank in twelve-hour broth, with rice noodles, scallion and onion. Add sriracha at your own risk.",
+      "price": "$15"
+    },
+    {
+      "title": "Pho Dac Biet",
+      "description": "House special. Six cuts — rare beef, flank, brisket, tendon, tripe and meatball. Our most-ordered bowl.",
+      "price": "$17"
+    },
+    {
+      "title": "Chicken Pho",
+      "description": "Free-range chicken simmered in a lighter, clearer broth. Garnished with cilantro and a generous lime wedge.",
+      "price": "$14"
+    },
+    {
+      "title": "Banh Mi Sandwiches",
+      "description": "Pork belly, lemongrass chicken or tofu. House mayo, fresh cucumber, daikon-carrot pickle on a crisp baguette.",
+      "price": "$10"
+    },
+    {
+      "title": "Vermicelli Bowls",
+      "description": "Cool rice noodles, herbs, pickled vegetables, your choice of grilled meat. Topped with crushed peanut and nuoc cham.",
+      "price": "$13"
+    },
+    {
+      "title": "Vietnamese Iced Coffee",
+      "description": "Phin-brewed dark roast over sweetened condensed milk and ice. Strong enough to skip your next meeting.",
+      "price": "$5"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Tuyet N.",
+      "rating": 5,
+      "text": "Best pho in South OC. The broth is clean, deep, and never greasy. They actually skim it — you can tell."
+    },
+    {
+      "name": "Marco P.",
+      "rating": 5,
+      "text": "Banh mi is a serious sandwich here. Crusty bread, real pickles, generous protein. Worth the drive from Mission Viejo."
+    },
+    {
+      "name": "Janelle K.",
+      "rating": 4,
+      "text": "Friendly staff, quick lunch service, and they remember your usual after two visits. The dac biet is a must."
+    }
   ],
   "contact": {
-    "address": "123 Main St, City, ST 12345",
-    "phone": "(555) 123-4567",
-    "email": "info@sample.com",
+    "phone": "(949) 328-9566",
+    "email": "hello@pholablf.com",
+    "address": "22641 Lake Forest Dr Ste B1-2, Lake Forest, CA 92630",
+    "mapEmbedQuery": "Pho Lab 22641 Lake Forest Dr Lake Forest CA 92630",
     "hours": {
-      "Monday": "9:00 AM - 5:00 PM",
-      "Tuesday": "9:00 AM - 5:00 PM",
-      "Wednesday": "9:00 AM - 5:00 PM",
-      "Thursday": "9:00 AM - 5:00 PM",
-      "Friday": "9:00 AM - 5:00 PM",
-      "Saturday": "10:00 AM - 3:00 PM",
-      "Sunday": "Closed"
+      "Monday": "10 AM – 10 PM",
+      "Tuesday": "10 AM – 10 PM",
+      "Wednesday": "10 AM – 10 PM",
+      "Thursday": "10 AM – 10 PM",
+      "Friday": "10 AM – 10 PM",
+      "Saturday": "10 AM – 10 PM",
+      "Sunday": "10 AM – 10 PM"
+    }
+  },
+  "gallery": [
+    "https://images.unsplash.com/photo-1614531341773-3bff8b7cb3fc?w=1200&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1576577445504-6af96477db52?w=1200&q=80&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=1200&q=80&auto=format&fit=crop"
+  ],
+  "social": {
+    "yelp": "https://www.yelp.com/biz/pho-lab-lake-forest",
+    "orderonline": "https://custom.order.online/store/pho-lab-lake-forest-dr-39768220",
+    "facebook": "https://www.facebook.com/groups/1406150726710421/posts/1761727404486083/",
+    "ubereats": "https://www.ubereats.com/store/pho-lab-lake-forest/BeqkPHcnUjmBPdy65njT9A",
+    "postmates": "https://postmates.com/store/pho-lab-lake-forest/BeqkPHcnUjmBPdy65njT9A"
+  },
+  "orderOnline": [
+    {
+      "platform": "order",
+      "label": "Order on Pho Lab",
+      "url": "https://custom.order.online/store/pho-lab-lake-forest-dr-39768220"
     },
-    "mapEmbedQuery": "123+Main+St+City+ST"
+    {
+      "platform": "ubereats",
+      "label": "Uber Eats",
+      "url": "https://www.ubereats.com/store/pho-lab-lake-forest/BeqkPHcnUjmBPdy65njT9A"
+    },
+    {
+      "platform": "postmates",
+      "label": "Postmates",
+      "url": "https://postmates.com/store/pho-lab-lake-forest/BeqkPHcnUjmBPdy65njT9A"
+    }
+  ],
+  "theme": {
+    "primaryColor": "#0F4C4A",
+    "accentColor": "#E8A33D",
+    "fontFamily": "DM Serif Display + Inter"
   },
   "seo": {
-    "title": "Sample Business | City, ST",
-    "description": "Sample Business in City, ST. Professional services you can trust.",
-    "keywords": ["sample business", "city ST", "professional services"]
-  },
-  "theme": {
-    "primaryColor": "#0a0a0a",
-    "accentColor": "#c8a97e",
-    "fontFamily": "modern"
+    "title": "Pho Lab Lake Forest — Vietnamese pho and banh mi",
+    "description": "Twelve-hour bone broth, banh mi, and Vietnamese iced coffee. Open 10AM–10PM daily at 22641 Lake Forest Dr.",
+    "keywords": [
+      "Pho Lake Forest",
+      "Vietnamese restaurant Lake Forest",
+      "banh mi Lake Forest",
+      "best pho Orange County",
+      "pho near Mission Viejo",
+      "Vietnamese OC"
+    ]
   }
 }
